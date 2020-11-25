@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
   ) // private accountService: AccountService
   {
     // this.account = account;
-    this.title = 'test';
+    this.title = 'Camilla\'s dyrepensionat';
     this.isMenuCollapsed = true;
     this.backLink = [''];
     // this.accountService.account.subscribe((x) => (this.account = x));
@@ -36,8 +36,6 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.title = 'test';
-    this.isMenuCollapsed = true;
   }
 
   logout(): void {

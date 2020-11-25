@@ -26,9 +26,11 @@ import {
 // Page Modules
 import { HomeComponent, NotFoundComponent } from './pages/danish/';
 import { HeaderComponent } from './pages/danish/header/header.component';
+import { NavigationComponent } from './pages/danish/navigation/navigation.component';
+import { BannerComponent } from './pages/danish/banner/banner.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NotFoundComponent, HeaderComponent],
+  declarations: [AppComponent, HomeComponent, NotFoundComponent, HeaderComponent, NavigationComponent, BannerComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
