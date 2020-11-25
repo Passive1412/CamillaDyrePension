@@ -25,9 +25,10 @@ import {
 
 // Page Modules
 import { HomeComponent, NotFoundComponent } from './pages/danish/';
+import { HeaderComponent } from './pages/danish/header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NotFoundComponent],
+  declarations: [AppComponent, HomeComponent, NotFoundComponent, HeaderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

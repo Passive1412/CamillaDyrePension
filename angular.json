@@ -31,6 +31,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@ng-select/ng-select/scss/default.theme.scss",
+              "node_modules/font-awesome/scss/font-awesome.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -68,7 +70,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "CamillaDyrePension:build"
+            "browserTarget": "CamillaDyrePension:build",
+            "port": 4301
           },
           "configurations": {
             "production": {
