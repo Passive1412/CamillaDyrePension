@@ -24,10 +24,18 @@ import {
 // Core Modules
 
 // Page Modules
+import { HomeComponent, NotFoundComponent } from './pages/danish/';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [AppComponent, HomeComponent, NotFoundComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    AgGridModule.withComponents([]),
+    HttpClientModule,
+    BrowserAnimationsModule,
+    NgbModule,
+  ],
   providers: [
     { provide: ErrorHandler, useClass: environment.errorHandler },
     // { provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true }
