@@ -29,9 +29,10 @@ import { HomeComponent, NotFoundComponent } from './pages/danish/';
 import { HeaderComponent } from './pages/danish/header/header.component';
 import { NavigationComponent } from './pages/danish/navigation/navigation.component';
 import { BannerComponent } from './pages/danish/banner/banner.component';
+import { FooterComponent } from './core/components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NotFoundComponent, HeaderComponent, NavigationComponent, BannerComponent],
+  declarations: [AppComponent, HomeComponent, NotFoundComponent, HeaderComponent, NavigationComponent, BannerComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
