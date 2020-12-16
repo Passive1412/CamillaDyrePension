@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  randomVar: any;
+
+  constructor() {
+    this.randomVar = 5+"s"
+  }
 
   ngOnInit(): void {
+    console.log(this.randomVar)
   }
+
 
 }
