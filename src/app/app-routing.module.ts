@@ -4,7 +4,7 @@ import { from } from 'rxjs';
 
 // import {  } from './core';
 
-import { HomeComponent, NotFoundComponent } from './pages/danish';
+import { HomeComponent, NotFoundComponent } from './features/danish';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

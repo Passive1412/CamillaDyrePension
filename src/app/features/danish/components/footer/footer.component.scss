@@ -150,7 +150,7 @@ h6 {
 .new_footer_top .footer_bg {
   position: absolute;
   bottom: 0;
-  background: url("../../../../assets/footer/footer.jpeg") no-repeat scroll
+  background: url("../../../../../assets/footer/footer_bg.png") no-repeat scroll
     center 0;
   background-size: 100%;
   width: 100%;
@@ -161,23 +161,38 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-  background: url("../../../../assets/footer/standardGuy.gif")
-    no-repeat center center;
-    height: 600px;
-    width: 308px;
+  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
+    center center;
+  height: 600px;
+  width: 308px;
   background-size: 100%;
   position: absolute;
   bottom: 0;
   left: 10%;
   scale: 15%;
   transform-origin: 50% bottom;
-  -webkit-animation: myfirst 15s linear infinite;
-  animation: myfirst 15s linear infinite;
+  -webkit-animation: guyAni 15s linear infinite;
+  animation: guyAni 15s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_one_square {
+  background: url("../../../../../assets/footer/red_square.png") no-repeat
+    center center;
+  height: 600px;
+  width: 308px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  scale: 15%;
+  transform-origin: 50% bottom;
+  -webkit-animation: squareAni 15s linear infinite;
+  animation: squareAni 15s linear infinite;
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-  background: url("../../../../assets/footer/standardGuy.gif")
-    no-repeat center center;
+  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
+    center center;
   object-fit: cover;
   height: 600px;
   width: 308px;
@@ -187,43 +202,89 @@ h6 {
   left: 20%;
   scale: 15%;
   transform-origin: 50% bottom;
-  -webkit-animation: myfirst 15s linear infinite;
-  animation: myfirst 15s linear infinite;
+  -webkit-animation: guyAni 13s linear infinite;
+  animation: guyAni 13s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two_square {
+  background: url("../../../../../assets/footer/yellow_square.png") no-repeat
+    center center;
+  height: 600px;
+  width: 308px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  scale: 15%;
+  transform-origin: 50% bottom;
+  -webkit-animation: squareAni 13s linear infinite;
+  animation: squareAni 13s linear infinite;
 }
 
 .new_footer_top .footer_bg .footer_bg_three {
-  background: url("../../../../assets/footer/standardGuy.gif")
-    no-repeat center center;
-    height: 600px;
-    width: 308px;
+  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
+    center center;
+  height: 600px;
+  width: 308px;
   background-size: 100%;
   position: absolute;
   bottom: 0;
   left: 30%;
   scale: 15%;
   transform-origin: 50% bottom;
-  -webkit-animation: myfirst 15s linear infinite;
-  animation: myfirst 15s linear infinite;
+  -webkit-animation: guyAni 17s linear infinite;
+  animation: guyAni 17s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_three_square {
+  background: url("../../../../../assets/footer/green_square.png") no-repeat
+    center center;
+  height: 600px;
+  width: 308px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  scale: 15%;
+  transform-origin: 50% bottom;
+  -webkit-animation: squareAni 17s linear infinite;
+  animation: squareAni 17s linear infinite;
 }
 
 .new_footer_top .footer_bg .footer_bg_four {
-  background: url("../../../../assets/footer/standardGuy.gif")
-    no-repeat center center;
-    height: 600px;
-    width: 308px;
+  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
+    center center;
+  height: 600px;
+  width: 308px;
   background-size: 100%;
   position: absolute;
   bottom: 0;
   left: 40%;
   scale: 15%;
   transform-origin: 50% bottom;
-  -webkit-animation: myfirst 15s linear infinite;
-  animation: myfirst 15s linear infinite;
+  -webkit-animation: guyAni 19s linear infinite;
+  animation: guyAni 19s linear infinite;
 }
 
+.new_footer_top .footer_bg .footer_bg_four_square {
+  background: url("../../../../../assets/footer/blue_square.png") no-repeat
+    center center;
+  height: 600px;
+  width: 308px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  scale: 15%;
+  transform-origin: 50% bottom;
+  -webkit-animation: squareAni 19s linear infinite;
+  animation: squareAni 19s linear infinite;
+}
+
+
 .new_footer_top .footer_bg .footer_bg_five {
-  background: url("../../../../assets/footer/standardGuy.gif")
-    no-repeat center center;
+  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
+    center center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -232,9 +293,25 @@ h6 {
   left: 50%;
   scale: 15%;
   transform-origin: 50% bottom;
-  -webkit-animation: myfirst 10s linear infinite;
-  animation: myfirst 10s linear infinite;
+  -webkit-animation: guyAni 11s linear infinite;
+  animation: guyAni 11s linear infinite;
 }
+
+.new_footer_top .footer_bg .footer_bg_five_square {
+  background: url("../../../../../assets/footer/pink_square.png") no-repeat
+    center center;
+  height: 600px;
+  width: 308px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  scale: 15%;
+  transform-origin: 50% bottom;
+  -webkit-animation: squareAni 11s linear infinite;
+  animation: squareAni 11s linear infinite;
+}
+
 
 .new_footer_top .footer_bg .footer_bg_camera {
   background: url("https://spaceit.ca/assets/gifs/surveillance.gif") no-repeat
@@ -247,7 +324,7 @@ h6 {
   position: absolute;
 }
 
-@-moz-keyframes myfirst {
+@-moz-keyframes guyAni {
   0% {
     left: -25%;
   }
@@ -256,7 +333,7 @@ h6 {
   }
 }
 
-@-webkit-keyframes myfirst {
+@-webkit-keyframes guyAni {
   0% {
     left: -25%;
   }
@@ -265,9 +342,48 @@ h6 {
   }
 }
 
-@keyframes myfirst {
+@keyframes guyAni {
   0% {
     left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-moz-keyframes squareAni {
+  0% {
+    background: transparent;
+    left: -25%;
+  }
+  75% {
+    opacity: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes squareAni {
+  0% {
+    background: transparent;
+    left: -25%;
+  }
+  75% {
+    opacity: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes squareAni {
+  0% {
+    background: transparent;
+    left: -25%;
+  }
+  75% {
+    opacity: 100%;
   }
   100% {
     left: 100%;

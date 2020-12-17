@@ -4,7 +4,6 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
 // AgGrid Modules
 import { AgGridModule } from '@ag-grid-community/angular';
 
@@ -25,14 +24,25 @@ import {
 // Core Modules
 
 // Page Modules
-import { HomeComponent, NotFoundComponent } from './pages/danish/';
-import { HeaderComponent } from './pages/danish/header/header.component';
-import { NavigationComponent } from './pages/danish/navigation/navigation.component';
-import { BannerComponent } from './pages/danish/banner/banner.component';
-import { FooterComponent } from './core/components/footer/footer.component';
+import {
+  HomeComponent,
+  NotFoundComponent,
+  HeaderComponent,
+  NavigationComponent,
+  BannerComponent,
+  FooterComponent,
+} from './features/danish/';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NotFoundComponent, HeaderComponent, NavigationComponent, BannerComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    NotFoundComponent,
+    HeaderComponent,
+    NavigationComponent,
+    BannerComponent,
+    FooterComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
