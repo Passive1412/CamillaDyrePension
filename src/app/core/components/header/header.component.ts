@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 // import { AccountService } from '../services';
-import { Account, Role } from '../../../../core/models';
+// import { Account, Role } from '../../../../core/models';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +12,7 @@ import { Account, Role } from '../../../../core/models';
 export class HeaderComponent implements OnInit {
   @Input() backLink: string[];
 
-  Role = Role;
+  // Role = Role;
 
   title: string;
   isMenuCollapsed: boolean;

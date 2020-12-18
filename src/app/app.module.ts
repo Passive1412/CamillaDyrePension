@@ -25,22 +25,16 @@ import {
 
 // Page Modules
 import {
-  HomeComponent,
-  NotFoundComponent,
   HeaderComponent,
   NavigationComponent,
-  BannerComponent,
   FooterComponent,
-} from './features/danish/';
+} from './core/components';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    NotFoundComponent,
     HeaderComponent,
     NavigationComponent,
-    BannerComponent,
     FooterComponent,
   ],
   imports: [

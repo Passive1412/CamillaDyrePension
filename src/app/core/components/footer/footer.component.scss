@@ -1,13 +1,39 @@
 body {
   background: #fbfbfd;
+  // height: 100vh;
+  // padding: 0;
+  // display: grid;
+  // align-content: center;
+  // justify-content: center;
 }
 
 .new_footer_area {
-  background: #fbfbfd;
+  background: gray;
+  // display: grid;
+  // place-items: center;
+  position: relative;
 }
 
+.new_footer_area::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  background-image: url("../../../../assets/footer/footer_bg.png");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  opacity: 90%;
+  filter: brightness(60%) saturate(100%) invert(31%) sepia(34%) saturate(542%)
+    hue-rotate(158deg) brightness(96%) contrast(87%);
+}
+.new_footer_area-inside {
+  position: relative;
+  font: bold 12px sans-serif;
+}
 .new_footer_top {
-  padding: 120px 0px 270px;
+  padding: 5% 0px 5%;
   position: relative;
   overflow-x: hidden;
 }
@@ -26,7 +52,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #6a7695;
+  color: white;
   margin-bottom: 20px;
 }
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -129,6 +155,9 @@ button:focus {
   margin-bottom: 30px;
   color: #263b5e;
 }
+.f_brand {
+  align-items: left;
+}
 .f_600 {
   font-weight: 600;
 }
@@ -141,28 +170,15 @@ h3,
 h4,
 h5,
 h6 {
-  color: #4b505e;
+  color: #3b5c6f;
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
-  color: #6a7695;
-}
-
-.new_footer_top .footer_bg {
-  position: absolute;
-  bottom: 0;
-  background: url("../../../../../assets/footer/footer_bg.png") no-repeat scroll
-    center 0;
-  background-size: 100%;
-  width: 100%;
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: inherit;
+  color: white;
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
-    center center;
+  background: url("../../../../assets/footer/standardGuy.gif") no-repeat center
+    center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -176,8 +192,8 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_one_square {
-  background: url("../../../../../assets/footer/red_square.png") no-repeat
-    center center;
+  background: url("../../../../assets/footer/red_square.png") no-repeat center
+    center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -191,8 +207,8 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
-    center center;
+  background: url("../../../../assets/footer/standardGuy.gif") no-repeat center
+    center;
   object-fit: cover;
   height: 600px;
   width: 308px;
@@ -207,7 +223,7 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_two_square {
-  background: url("../../../../../assets/footer/yellow_square.png") no-repeat
+  background: url("../../../../assets/footer/yellow_square.png") no-repeat
     center center;
   height: 600px;
   width: 308px;
@@ -222,8 +238,8 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_three {
-  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
-    center center;
+  background: url("../../../../assets/footer/standardGuy.gif") no-repeat center
+    center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -237,8 +253,8 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_three_square {
-  background: url("../../../../../assets/footer/green_square.png") no-repeat
-    center center;
+  background: url("../../../../assets/footer/green_square.png") no-repeat center
+    center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -252,8 +268,8 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_four {
-  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
-    center center;
+  background: url("../../../../assets/footer/standardGuy.gif") no-repeat center
+    center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -267,8 +283,8 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_four_square {
-  background: url("../../../../../assets/footer/blue_square.png") no-repeat
-    center center;
+  background: url("../../../../assets/footer/blue_square.png") no-repeat center
+    center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -281,10 +297,9 @@ h6 {
   animation: squareAni 19s linear infinite;
 }
 
-
 .new_footer_top .footer_bg .footer_bg_five {
-  background: url("../../../../../assets/footer/standardGuy.gif") no-repeat
-    center center;
+  background: url("../../../../assets/footer/standardGuy.gif") no-repeat center
+    center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -298,8 +313,8 @@ h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_five_square {
-  background: url("../../../../../assets/footer/pink_square.png") no-repeat
-    center center;
+  background: url("../../../../assets/footer/pink_square.png") no-repeat center
+    center;
   height: 600px;
   width: 308px;
   background-size: 100%;
@@ -311,7 +326,6 @@ h6 {
   -webkit-animation: squareAni 11s linear infinite;
   animation: squareAni 11s linear infinite;
 }
-
 
 .new_footer_top .footer_bg .footer_bg_camera {
   background: url("https://spaceit.ca/assets/gifs/surveillance.gif") no-repeat
@@ -388,6 +402,16 @@ h6 {
   100% {
     left: 100%;
   }
+}
+
+hr {
+  display: block;
+  margin-end: auto;
+  margin-start: auto;
+  border: 1px inset;
+  overflow: hidden;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
 }
 
 /*************footer End*****************/

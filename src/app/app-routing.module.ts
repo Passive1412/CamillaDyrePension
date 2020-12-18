@@ -1,15 +1,26 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { from } from 'rxjs';
 
 // import {  } from './core';
 
-import { HomeComponent, NotFoundComponent } from './features/danish';
+// import { AuthGuard } from './core/guards';
+// import { Role } from './core/models';
+
+const danishModule = () =>
+  import('./features/danish/danish.module').then((x) => x.DanishModule);
+
+// const englishModule = () =>
+  // import('./features/english/english.module').then((x) => x.EnglishModule);
+
+// import { HomeComponent, NotFoundComponent } from './features/danish';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: '*', redirectTo: '' },
-  { path: '**', component: NotFoundComponent },
+  // { path: '', redirectTo: 'da' },
+  // { path: '*', redirectTo: 'da' },
+  // { path: '**', component: NotFoundComponent },
+
+  { path: 'da', loadChildren: danishModule },
+  // { path: 'en', loadChildren: danishModule },
 ];
 
 @NgModule({
